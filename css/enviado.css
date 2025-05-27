@@ -1,19 +1,25 @@
 body{
     background-color: #5f0600;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .container{
-    padding: 3em;
-    margin: 15em 30em;
     background-color: #fcf7d3;
     border-radius: 20px;
-
+    padding: 3em;
+    margin: 2rem;
+    max-width: 600px;
+    width: 90%;
 }
 
 h1{
     font-family: "Notable";
     color: #5f0600;
-    font-size: 2em;
+    font-size: clamp(1.5em, 2vw, 2em);
     text-align: center;
     padding: 1em;
     letter-spacing: 2px;
@@ -22,8 +28,9 @@ h1{
 p{
     font-family: "Abril Fatface";
     color: #5f0600;
-    font-size: 1.4em;
+    font-size: clamp(1.2em, 1.4vw, 1.4em);
     text-align: center;
+    margin: 1rem 0;
 }
 
 a{
