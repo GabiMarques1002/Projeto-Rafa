@@ -28,12 +28,9 @@
 
 #inicio p{
     font-family: "Abril Fatface";
-    color: rgb(252, 247, 211);
+    color: #fcf7d3;
     font-size: 2em;
-    margin-left: 800px;
-    position: absolute;
-    right: 0;
-    bottom: 4em;
+    padding: 0 0 8em 35em;
 }
 
 header{
@@ -89,9 +86,11 @@ header{
     font-family: "Abril Fatface";
     color: #9e0000;
     font-size: 2em;
+    display: inline;
     position: relative;
-    left: 25em;
     bottom: 15em;
+    left: 25em;
+    right: 0;
 }
 
 #intervalo{
@@ -191,7 +190,7 @@ header{
 .form{
     border: 3px solid #9e0000;
     border-radius: 20px;
-    margin: 10em;
+    margin: 10em 5em 0 5em;
     padding: 3em;
 }
 
@@ -235,4 +234,12 @@ input:focus {
     position: relative;
     left: 40em;
     cursor: pointer;
+}
+
+button a{
+    color: #fcf7d3;
+}
+
+button a:hover{
+    text-decoration: underline;
 }
