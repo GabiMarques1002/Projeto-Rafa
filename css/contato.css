@@ -1,0 +1,70 @@
+body{
+    background-color: #fcf7d3;
+    height: 100vh;
+}
+
+h1{
+    padding: 60px 150px 0;
+    color: rgb(158, 0, 0);
+    font-size: 7em;
+    text-shadow: 6px 3px 3px rgba(158, 0, 0, 0.5);
+}
+
+h2{
+    padding: 0 0 0 30em;
+    color: #9e0000;
+    font-size: 2.5em;
+}
+
+.form{
+    border: 3px solid #9e0000;
+    border-radius: 20px;
+    margin: 10em;
+    padding: 3em;
+}
+
+label{
+    font-family: "Abril Fatface";
+    padding: 5em 0.5em 1em 5em;
+    font-size: 3em;
+    color: #9e0000;
+}
+
+input{
+    padding: 0.8em 7em;
+    border: 3px solid #9e0000;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #5f0600;
+    font-size: 15px;
+    font-weight: bold;
+}
+input:focus {
+    outline: none;
+    border: 3px solid #9e0000;
+}
+
+::-webkit-input-placeholder{
+    color: #9e0000;
+}
+#message{
+    margin-top: 1em;
+    padding: 2em 3em;
+}
+
+.form button{
+    padding: 15px 20px;
+    font-size: 2em;
+    background-color: #5f0600;
+    color: #fcf7d3;
+    border: 2px solid #5f0600;
+    border-radius: 30px;
+    font-family: "Abril Fatface";
+    position: relative;
+    left: 40em;
+    cursor: pointer;
+}
+a{
+    color: #fcf7d3;
+    text-decoration: none;
+}
