@@ -4,6 +4,7 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 #inicio{
     background-color: #9e0000;
     min-height: 100vh;
@@ -147,7 +148,7 @@ header{
 
 #produtos #quadro{
     width: 20%;
-    height: 70%;
+    height: 65%;
     border-radius: 20px;
     position: absolute;
     left: 60em;
@@ -251,4 +252,15 @@ input:focus {
 
 .form button a:hover{
     text-decoration: underline;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
