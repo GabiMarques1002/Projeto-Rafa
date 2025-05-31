@@ -145,8 +145,7 @@ header{
     margin: 2rem 0;
 }
 
-#produtos .quadro{
-    background-color: #5f0600;
+#produtos #quadro{
     width: 20%;
     height: 70%;
     border-radius: 20px;
