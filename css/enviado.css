@@ -19,18 +19,18 @@ body{
 h1{
     font-family: "Notable";
     color: #5f0600;
-    font-size: clamp(1.5em, 2vw, 2em);
+    font-size: 2em;
     text-align: center;
     padding: 1em;
     letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
 p{
     font-family: "Abril Fatface";
     color: #5f0600;
-    font-size: clamp(1.2em, 1.4vw, 1.4em);
+    font-size: 1.5em;
     text-align: center;
-    margin: 1rem 0;
 }
 
 a{
