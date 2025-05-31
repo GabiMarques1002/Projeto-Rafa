@@ -127,7 +127,7 @@ header{
 
 #produtos{
     background-color: #9e0000;
-    height: 100vh;
+    min-height: 100vh;
     padding: 2rem 3rem;
 }
 
