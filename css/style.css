@@ -148,11 +148,11 @@ header{
 
 #produtos #quadro{
     width: 20%;
-    height: 65%;
+    height: 50%;
     border-radius: 20px;
     position: absolute;
     left: 60em;
-    top: 106em;
+    top: 108em;
 }
 
 #produtos button{
